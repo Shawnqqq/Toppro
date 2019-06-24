@@ -47,3 +47,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* *{
+    box-sizing: border-box;
+} */
+a,li{
+    text-decoration: none;
+}
+
+.container-1000{
+	width: 1000px;
+	margin: 0 auto;
+}
