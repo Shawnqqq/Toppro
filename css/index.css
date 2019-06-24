@@ -538,38 +538,51 @@
   margin-left: 160px;
   width: 235px;
 }
-.page-body .foot-section .foot-content .foot-summary .line {
+.page-body .foot-section .foot-content .foot-summary .foot-summary-line {
   width: 33px;
   height: 4px;
   background-color: #2b2744;
   margin: 18px 0 19px 0;
+}
+.page-body .foot-section .foot-content .foot-summary:hover .foot-title {
+  color: #58a673;
+}
+.page-body .foot-section .foot-content .foot-summary:hover .line {
+  background-color: #58a673;
 }
 .page-body .foot-section .foot-content .foot-nav {
   margin-left: 110px;
   width: 60px;
 }
-.page-body .foot-section .foot-content .foot-nav .line {
+.page-body .foot-section .foot-content .foot-nav .foot-nav-line {
   width: 14px;
   height: 4px;
   background-color: #2b2744;
   margin: 18px 0 19px 0;
 }
+.page-body .foot-section .foot-content .foot-nav:hover .foot-title {
+  color: #58a673;
+}
+.page-body .foot-section .foot-content .foot-nav:hover .line {
+  background-color: #58a673;
+}
 .page-body .foot-section .foot-content .foot-contact {
   margin-left: 90px;
   position: relative;
 }
-.page-body .foot-section .foot-content .foot-contact .line {
+.page-body .foot-section .foot-content .foot-contact .foot-contact-line {
   width: 33px;
   height: 4px;
   background-color: #2b2744;
   margin: 18px 0 19px 0;
 }
-.page-body .foot-section .foot-content div {
-  font-size: 14px;
-  color: #f0f0f1;
-  line-height: 28px;
+.page-body .foot-section .foot-content .foot-contact:hover .foot-title {
+  color: #58a673;
 }
-.page-body .foot-section .foot-content a {
+.page-body .foot-section .foot-content .foot-contact:hover .line {
+  background-color: #58a673;
+}
+.page-body .foot-section .foot-content div {
   font-size: 14px;
   color: #f0f0f1;
   line-height: 28px;
@@ -578,26 +591,13 @@
   font-size: 15px;
   color: #8a8b91;
 }
+.page-body .foot-section .foot-content a {
+  font-size: 14px;
+  color: #f0f0f1;
+  line-height: 28px;
+}
 .page-body .foot-section .foot-content .foot-contact-end {
   position: absolute;
   left: -15px;
   top: 150px;
-}
-.page-body .foot-section .foot-content .foot-summary:hover .title {
-  color: #58a673;
-}
-.page-body .foot-section .foot-content .foot-summary:hover .line {
-  background-color: #58a673;
-}
-.page-body .foot-section .foot-content .foot-nav:hover .title {
-  color: #58a673;
-}
-.page-body .foot-section .foot-content .foot-nav:hover .line {
-  background-color: #58a673;
-}
-.page-body .foot-section .foot-content .foot-contact:hover .title {
-  color: #58a673;
-}
-.page-body .foot-section .foot-content .foot-contact:hover .line {
-  background-color: #58a673;
 }
